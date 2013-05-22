@@ -12,7 +12,7 @@ class Assert
   {
     try
       {
-	//	Comparator<T>::Compare(actual, expected);
+	Comparator<T>::Compare(actual, expected);
       }
     catch (...)
       {
